@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::io::{Read, Result};
 
-pub trait  Atbash<R: Read> {
+pub trait Atbash<R: Read> {
     fn atbash(self) -> FunnyReader<R>;
 }
 
